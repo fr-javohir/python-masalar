@@ -24,3 +24,26 @@ while shart2:
     if a2<0:
         shart2=False
 
+"""
+listdagi x sondan katta elementlarini olib tashlaydigan dastur
+"""
+x=12
+nums=[2,5,8,14,20,36,45]
+i=len(nums)-1
+while i>0:
+    if nums[i]>a:
+        nums.remove(nums[i])
+    i-=1
+print(nums)
+
+# Natija [2,5,8]
+
+"""
+sonning nechi xonaligini while loop orqali chiqaring
+"""
+y=17486458
+s=1
+while len(str(a))>1:
+    a=a//10
+    s+=1
+print(s)
